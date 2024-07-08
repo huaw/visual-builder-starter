@@ -23,14 +23,10 @@ OPTIMIZELY_CMS_CLIENT_ID=YOUR_CLIENT_HERE
 OPTIMIZELY_CMS_CLIENT_SECRET=YOUR_CLIENT_SECRET_HERE
 OPTIMIZELY_CMS_USER_ID=YOUR_USER_ID_HERE
 
-# Frontend specfic
-SITE_DOMAIN=localhost:3002
-OPTIMIZELY_PUBLISH_TOKEN=optly-5d5216fe-047f-49e3-b8c6-579712b3606e
-
 NODE_TLS_REJECT_UNAUTHORIZED=0
 ```
 
-Then make sure you've got your local environment:
+Then make sure you've got your local environment (Make sure use latest stable node, e.g. 18.17.0):
 ```bash
 yarn install
 ```
